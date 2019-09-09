@@ -1,0 +1,178 @@
+/*!
+ * 
+ * IFT customizations for SC workshop
+ * 
+ */
+
+body{
+ font-size:16px !important;
+}
+
+#shell, #git, #editor, #python {
+ margin-bottom:25px;
+ margin-left:40px;
+ padding-left:15px;
+ border-left-style:solid;
+ border-left-width:5px;
+ border-left-color: rgba(136, 126, 109, 0.12);
+}
+#shell p {
+ margin-left:15px;
+}
+
+
+
+
+
+
+#git p {
+ margin-left:15px;
+}
+
+
+
+#editor p {
+ margin-left:15px;
+}
+
+
+
+#python p {
+ margin-left:15px;
+}
+
+
+#git div.row, #python div.row, #shell div.row, #python div.row, #editor div.row {
+margin:auto;
+ 
+}
+.row .btn {
+margin-bottom:20px;
+
+}
+
+#syllabus_wrap .row {
+ margin-left:15px;
+
+}
+h2#syllabus, h2#wdetails, h2#schedule, h2#setup, h2#general{
+ border-left-style:solid;
+ padding-left: 10px;
+ //background-color:rgba(176, 226, 234, 0.13);
+ padding-top:10px;
+ padding-bottom:10px;
+ border-radius:16px;
+ margin-top:50px;
+ margin-bottom:20px;
+}
+
+.jumbotron{
+
+background-color:rgba(176, 226, 234, 0.13);
+
+}
+
+iframe {
+ width:100%;
+ height:264px;
+ max-width: 395px;
+}
+
+div#iframe{
+ text-align:center;
+}
+
+.jumbotron {
+ background-image:url("../../header_small.png");
+ height:500px;
+ max-width:1140px;
+}
+
+.jumbotron .row {
+ background-color:rgba(136, 126, 109, 0.69);
+ border-radius:12px;
+}
+.jumbotron h2{
+}
+
+.jumbotron .row .row{
+ background-color:transparent !important;
+
+}
+
+h2{
+background-color:rgba(136, 126, 109, 0.12) !important;
+}
+
+#logoift{
+ border-radius: 18px;
+ /*margin-top: 50px;*/
+ margin-bottom: 50px;
+ background-color:white;
+ overflow:hidden;
+ max-width:200px;
+}
+
+#logoift_img{
+ margin:5px;
+}
+#logoicmat{
+border-radius: 18px;
+ margin-top: 5px;
+ margin-bottom: 50px;
+ /*background-color:white;*/
+ overflow:hidden;
+ max-width:300px;
+ float:right;
+}
+
+div#image_header{
+ margin:auto !important;
+
+}
+
+div#software_carpentry{
+ margin:auto !important;
+ text-align:center;
+}
+
+/***********
+* I hide the div with Instructors and Helpers in small screens, because is too big and makes issues
+*
+*/
+
+@media (max-width: 767px) {                  
+   .content-to-hide {
+      display: none;
+   }
+}
+
+/**
+* Collaboration
+**/
+
+
+div#CFMlogo {
+ max-width:300px;
+ padding-top:15px;
+ margin:auto
+}
+
+div#coll {
+ display: block;
+ max-width: 349px;
+ text-align: center;
+ margin: auto;
+ font-size: 30px;
+ height: 200px;
+}
+
+div#CFMlogo img {
+ width:190px;
+
+}
+div#CFMlogo a {
+ display: block;
+ font-size: 16px;
+ padding-top: 5px;
+}
