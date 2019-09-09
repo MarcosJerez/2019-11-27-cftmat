@@ -352,10 +352,8 @@ displayed if the 'eventbrite' field in the header is not set.
 
   <div class="row">
     <div class="col-md-4">
-      <a class="" role="button" data-toggle="collapse"  href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><h4 id="shell-windows">Windows</h4></a>
-  
-      <div id="collapseOne" class="collapse">
-  
+      <a class="" role="button" data-toggle="collapse"  href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><h4 id="shell-windows">Windows</h4></a>  
+      <div id="collapseOne" class="collapse">  
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
@@ -410,10 +408,8 @@ displayed if the 'eventbrite' field in the header is not set.
     </div><!-- End collapseOne -->	
 	
    </div>
-
     <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse"  href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h4 id="shell-macos">MacOS X</h4></a>
-
      <div id="collapseTwo" class="collapse">
       <p>
         The default shell in all versions of Mac OS X is Bash, so no
@@ -425,12 +421,10 @@ displayed if the 'eventbrite' field in the header is not set.
         You may want to keep
         Terminal in your dock for this workshop.
       </p>
-
      </div> <!-- End collapseTwo -->
     </div>
     <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h4 id="shell-linux">Linux</h4></a>
-
      <div id="collapseThree" class="collapse">
       <p>
         The default shell is usually Bash, but if your
@@ -463,7 +457,6 @@ displayed if the 'eventbrite' field in the header is not set.
   <div class="row">
     <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse" href="#collapseg1" aria-expanded="false" aria-controls="collapseg1"><h4 id="git-windows">Windows</h4></a>
-
       <div id="collapseg1" class="collapse">
       <p>
         Git should be installed on your computer as part of your Bash
@@ -471,7 +464,6 @@ displayed if the 'eventbrite' field in the header is not set.
       </p>
       </div> 
     </div>
-
     <div class="col-md-4">
      <a class="" role="button" data-toggle="collapse" href="#collapseg2" aria-expanded="false" aria-controls="collapseg2"><h4 id="git-windows"><h4 id="git-macosx">Mac OS X</h4></a>
       <div id="collapseg2" class="collapse">
