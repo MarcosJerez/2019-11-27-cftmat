@@ -88,10 +88,10 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <!--
   INTRODUCTION
-
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 -->
+
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
@@ -113,10 +113,10 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <!--
   AUDIENCE
-
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 -->
+
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
 {% elsif page.carpentry == "dc" %}
@@ -128,12 +128,12 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <!--
   LOCATION
-
   This block displays the address and links to maps showing directions
   if the latitude and longitude of the workshop have been set.  You
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
 -->
+
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
@@ -147,9 +147,9 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <!--
   DATE
-
   This block displays the date and links to Google Calendar.
 -->
+
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
@@ -160,9 +160,9 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <!--
   SPECIAL REQUIREMENTS
-
   Modify the block below if there are any special requirements.
 -->
+
 <div class="alert alert-warning">
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
@@ -181,10 +181,10 @@ displayed if the 'eventbrite' field in the header is not set.
 </div>
 <!--
   ACCESSIBILITY
-
   Modify the block below if there are any barriers to accessibility or
   special instructions.
 -->
+
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -230,7 +230,6 @@ You may need to move the div's with class="col-md-6" around inside -->
 
 <!--
   SCHEDULE
-
   Show the workshop's schedule.  Edit the items and times in the table
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
@@ -267,7 +266,6 @@ You may need to move the div's with class="col-md-6" around inside -->
 {% endif %}
 
 </div> <!-- div schedule_wrap -->
-
 
 <div id="syllabus_wrap">
 <!--
