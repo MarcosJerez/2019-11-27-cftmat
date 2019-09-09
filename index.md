@@ -595,7 +595,6 @@ displayed if the 'eventbrite' field in the header is not set.
   <div class="row">
     <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse" href="#collapsep1" aria-expanded="false" aria-controls="collapsep1"><h4 id="python-windows">Windows</h4></a>
-
       <div class="collapse" id="collapsep1">
       <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
       <ol>
@@ -605,7 +604,6 @@ displayed if the 'eventbrite' field in the header is not set.
       </ol>
       </div>
     </div>
-
     <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse" href="#collapsep2" aria-expanded="false" aria-controls="collapsep2"><h4 id="python-macosx">Mac OS X</h4></a>
       <div id="collapsep2" class="collapse">
@@ -619,7 +617,6 @@ displayed if the 'eventbrite' field in the header is not set.
     </div>
     <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse" href="#collapsep3" aria-expanded="false" aria-controls="collapsep3"><h4 id="python-linux">Linux</h4></a>
-
       <div class="collapse" id="collapsep3">
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a> with your web browser.</li>
