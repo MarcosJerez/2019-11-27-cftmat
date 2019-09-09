@@ -393,10 +393,10 @@ You may need to move the div's with class="col-md-6" around inside -->
       </ol>
       <p>This will provide you with both Git and Bash in the Git Bash program.</p>
     </div><!-- End collapseOne -->	
-	
-   </div>
-    <div class="col-md-4">
-      <a class="" role="button" data-toggle="collapse"  href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h4 id="shell-macos">MacOS X</h4></a>
+  </div>
+  <div class="col-md-4">
+      <a class="" role="button" data-toggle="collapse"  href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <h4 id="shell-macos">MacOS X</h4></a>
      <div id="collapseTwo" class="collapse">
       <p>
         The default shell in all versions of Mac OS X is Bash, so no
@@ -409,8 +409,8 @@ You may need to move the div's with class="col-md-6" around inside -->
         Terminal in your dock for this workshop.
       </p>
      </div> <!-- End collapseTwo -->
-    </div>
-    <div class="col-md-4">
+   </div>
+   <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h4 id="shell-linux">Linux</h4></a>
      <div id="collapseThree" class="collapse">
       <p>
