@@ -452,7 +452,8 @@ You may need to move the div's with class="col-md-6" around inside -->
       </div> 
     </div>
     <div class="col-md-4">
-     <a class="" role="button" data-toggle="collapse" href="#collapseg2" aria-expanded="false" aria-controls="collapseg2"><h4 id="git-windows"><h4 id="git-macosx">Mac OS X</h4></a>
+      <a class="" role="button" data-toggle="collapse" href="#collapseg2" aria-expanded="false" aria-controls="collapseg2">         <h4 id="git-macosx">Mac OS X</h4>
+      </a>
       <div id="collapseg2" class="collapse">
        <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
        <p>
@@ -468,7 +469,9 @@ You may need to move the div's with class="col-md-6" around inside -->
       </div>
     </div>
     <div class="col-md-4">
-      <a class="" role="button" data-toggle="collapse" href="#collapseg3" aria-expanded="false" aria-controls="collapseg3"><h4 id="git-windows"><h4 id="git-linux">Linux</h4></a>
+      <a class="" role="button" data-toggle="collapse" href="#collapseg3" aria-expanded="false" aria-controls="collapseg3">
+        <h4 id="git-linux">Linux</h4>
+        </a>
       <div id="collapseg3" class="collapse">
       <p>
         If Git is not already available on your machine you can try to
@@ -483,7 +486,6 @@ You may need to move the div's with class="col-md-6" around inside -->
 
 <div id="editor"> <!-- Start of 'editor' section. -->
   <h3>Text Editor</h3>
-
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
@@ -516,7 +518,6 @@ You may need to move the div's with class="col-md-6" around inside -->
     <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse" href="#collapsee2" aria-expanded="false" aria-controls="collapsee2"><h4 id="editor-macosx">Mac OS X</h4></a>
       <div id="collapsee2" class="collapse">
-
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
         See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
