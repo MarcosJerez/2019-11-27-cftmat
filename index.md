@@ -204,10 +204,9 @@ displayed if the 'eventbrite' field in the header is not set.
 </p>
 
 <!--
-  CONTACT EMAIL ADDRESS
+  CONTACT EMAIL ADDRESS  .
+You may need to move the div's with class="col-md-6" around inside -->
 
-  Display the contact email address set in the configuration file.
--->
 <p id="contact">
   <strong>Contact</strong>:
   Please email
@@ -228,7 +227,6 @@ displayed if the 'eventbrite' field in the header is not set.
   for more information.
 </p>
 </div><!--div wdetails -->
-
 
 <!--
   SCHEDULE
@@ -257,11 +255,8 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <!--
   Collaborative Notes
-
   If you want to use an Etherpad, go to
-
       http://pad.software-carpentry.org/YYYY-MM-DD-site
-
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 -->
@@ -277,9 +272,7 @@ displayed if the 'eventbrite' field in the header is not set.
 <div id="syllabus_wrap">
 <!--
   SYLLABUS
-
   Show what topics will be covered.
-
   1. If your workshop is R rather than Python, remove the comment
      around that section and put a comment around the Python section.
   2. Some workshops will delete SQL.
@@ -287,7 +280,6 @@ displayed if the 'eventbrite' field in the header is not set.
      intend to teach.
   4. You may need to move the div's with class="col-md-6" around inside
      the div's with class="row" to balance the multi-column layout.
-
   This is one of the places where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
@@ -310,18 +302,15 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <!--
   SETUP
-
   Delete irrelevant sections from the setup instructions.  Each
   section is inside a 'div' without any classes to make the beginning
   and end easier to find.
-
   This is the other place where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
 
 <h2 id="setup">Setup</h2>
-
 <p>
   To participate in a
   {% if page.carpentry == "swc" %}
@@ -575,13 +564,11 @@ displayed if the 'eventbrite' field in the header is not set.
     <a href="https://www.continuum.io/anaconda">Anaconda</a>,
     an all-in-one installer.
   </p>
-
     <p>
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
       (e.g., 3.4 is fine).
     </p>
-
     <p>
       We will teach Python using the IPython notebook, a programming environment
       that runs in a web browser. For this to work you will need a reasonably
@@ -591,7 +578,6 @@ displayed if the 'eventbrite' field in the header is not set.
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
-
   <div class="row">
     <div class="col-md-4">
       <a class="" role="button" data-toggle="collapse" href="#collapsep1" aria-expanded="false" aria-controls="collapsep1"><h4 id="python-windows">Windows</h4></a>
