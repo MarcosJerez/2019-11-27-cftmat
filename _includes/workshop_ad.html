@@ -1,7 +1,19 @@
 {% comment %}
   Advertising box at the top of a workshop website home page.
 {% endcomment %}
+<div id="software_carpentry" class="row">
+     <h2>This is a <a href="https://software-carpentry.org">Software Carpentry Workshop</a> <img src="./assets/img/swc-icon-blue.svg"></h2>
+</div>
+<div class="row" id="image_header">
 <div class="jumbotron">
+  <div class="logos, row">
+   <div id="logoift" class="col-md-6">
+     <img src="./logoift.jpg" id="logoift_img">
+   </div>
+    <div id="logoicmat" class="col-md-6">
+     <img src="./logoicmat.png" id="logoicmat_img">
+    </div>
+  </div> 
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <h2>{{page.venue}}</h2>
@@ -10,7 +22,7 @@
           <p>{{page.humandate}}</p>
           <p>{% if page.humantime %}{{page.humantime}}{% endif %}</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 content-to-hide">
           <p>
           <strong>Instructors:</strong>
           {% if page.instructor %}
@@ -29,4 +41,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>
