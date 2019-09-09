@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "Institute for Theoretical Physics UAM-CSIC"  # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Centro de Física Teórica y Matemáticas" # brief name of host site without address (e.g., "Euphoric State University")
 address: "Nicolas Cabrera 13, Madrid, Spain"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "es"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "es"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
@@ -70,8 +70,22 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<div id="contents_wrap">
+<h2 id="general">Contents</h2>
+<div id="contents">
+ <ul>
+  <li><a href="#general">General Information</a></li>
+  <li><a href="#details">Workshop Details</a></li>
+  <!--<li><a href="#sponsors">Sponsors</a></li>-->
+  <li><a href="#schedule">Schedule</a></li>
+  <li><a href="#syllabus">Syllabus</a></li>
+  <li><a href="#setup">Software Setup Instructions</a></li>
+</ul>
+</div>
+</div>
 
+<div id="general_wrap">
+<h2 id="general">General Information</h2>
 {% comment %}
 INTRODUCTION
 
@@ -86,6 +100,7 @@ the pitch.
 {% include lc/intro.html %}
 {% endif %}
 
+</div>
 {% comment %}
 AUDIENCE
 
