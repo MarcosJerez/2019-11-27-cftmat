@@ -75,9 +75,9 @@ displayed if the 'eventbrite' field in the header is not set.
   <img src="cfm-banner.png" />
   <a href="http://cfm.ehu.es/">Centro de Física de Materiales EHU</a>
  </div>
-<div id="sipba" class="col-md-6">	
+<!--<div id="sipba" class="col-md-6">	
 <img src="transparent_vertical_black.png" style="max-width:200px">
-</div>	
+</div>	-->
 </div>
 
 <div id="contents_wrap">
