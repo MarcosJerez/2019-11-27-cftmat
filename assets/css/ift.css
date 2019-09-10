@@ -105,25 +105,30 @@ background-color:rgba(136, 126, 109, 0.12) !important;
 }
 
 #logoift{
- border-radius: 18px;
- /*margin-top: 50px;*/
- margin-bottom: 50px;
- background-color:white;
- overflow:hidden;
- max-width:200px;
+    border-radius: 18px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    background-color: white;
+    overflow: hidden;
+    max-width: 201px;
+    margin-left: 5px;
 }
 
 #logoift_img{
  margin:5px;
+ width: 184px;
 }
 #logoicmat{
-border-radius: 18px;
- margin-top: 5px;
- margin-bottom: 50px;
- /*background-color:white;*/
- overflow:hidden;
- max-width:300px;
- float:right;
+    border-radius: 18px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    /* background-color: white; */
+    overflow: hidden;
+    max-width: 338px;
+    float: right;
+}
+#logoicmat_img {
+  width: 322px;
 }
 
 div#image_header{
