@@ -23,12 +23,12 @@ kind: "workshop"
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
-repository: <USERNAME>/<PROJECT>
+repository: MarcosJerez/2019-11-27-cftmat
 
 # Email address, no mailto:
 # (Don't change this -- the contact address for your workshop will be set 
 # in the index.md file)
-email: "team@carpentries.org"
+email: "marcos.ramirez@csic.es"
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
