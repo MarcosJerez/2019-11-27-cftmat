@@ -55,6 +55,10 @@ margin-bottom:20px;
  margin-left:15px;
 
 }
+#general_registration {
+ text-align: center; 
+}
+
 h2#syllabus, h2#wdetails, h2#schedule, h2#setup, h2#general, h2#registration {
  border-left-style:solid;
  padding-left: 10px;
