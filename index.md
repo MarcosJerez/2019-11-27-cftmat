@@ -87,7 +87,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <div id="general_resgistration">
 <h2 id="registration">Registration</h2>	
-
+<div id="content_registration">
 <!-- Registration is open as June the 1st. 	Registration is  <strong>closed</strong> as of June the 25th. All available seats for the workshop have been filled.-->
 
  <p>Assistance is limited to 40 people and seats are assigned in a first-come fist-served basis.</p>	
@@ -133,6 +133,7 @@ displayed if the 'eventbrite' field in the header is not set.
   </div>	
 </form>	
 </div>	
+</div>
 </div>	
 </div>
 <!-- Fin registration -->
