@@ -69,6 +69,22 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+
+
+
+
+<div id="coll">
+ With the collaboration of: 
+ <div id="CFMlogo" class="">
+  <img src="cfm-banner.png" />
+  <a href="http://cfm.ehu.es/">Centro de Física de Materiales EHU</a>
+ </div>
+<!--<div id="sipba" class="col-md-6">	
+<img src="transparent_vertical_black.png" style="max-width:200px">
+</div>	-->
+</div>
+
+
 <div id="general_resgistration">
 <h2 id="registration">Registration</h2>	
 
@@ -122,18 +138,6 @@ displayed if the 'eventbrite' field in the header is not set.
 <!-- Fin registration -->
 
 
-
-
-<div id="coll">
- With the collaboration of: 
- <div id="CFMlogo" class="">
-  <img src="cfm-banner.png" />
-  <a href="http://cfm.ehu.es/">Centro de Física de Materiales EHU</a>
- </div>
-<!--<div id="sipba" class="col-md-6">	
-<img src="transparent_vertical_black.png" style="max-width:200px">
-</div>	-->
-</div>
 
 <div id="contents_wrap">
 <h2 id="general">Contents</h2>
