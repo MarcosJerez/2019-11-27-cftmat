@@ -90,7 +90,7 @@ displayed if the 'eventbrite' field in the header is not set.
 <div id="content_registration">
 <!-- Registration is open as June the 1st. 	Registration is  <strong>closed</strong> as of June the 25th. All available seats for the workshop have been filled.-->
 
- <p>Assistance is limited to 40 people and seats are assigned in a first-come fist-served basis.</p>	
+ <p>Assistance is limited to 32 people and seats are assigned in a first-come fist-served basis.</p>	
 
  <div style="display: block;" class="classictemplate template">	
 <style type="text/css">	
