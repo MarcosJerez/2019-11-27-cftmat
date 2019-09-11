@@ -69,6 +69,7 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<div id="general_resgistration">
 <h2 id="registration">Registration</h2>	
 
 <!-- Registration is open as June the 1st. 	Registration is  <strong>closed</strong> as of June the 25th. All available seats for the workshop have been filled.-->
@@ -117,8 +118,7 @@ displayed if the 'eventbrite' field in the header is not set.
 </form>	
 </div>	
 </div>	
- <hr/>	<hr/>
-
+</div>
 <!-- Fin registration -->
 
 
