@@ -55,7 +55,7 @@ margin-bottom:20px;
  margin-left:15px;
 
 }
-h2#syllabus, h2#wdetails, h2#schedule, h2#setup, h2#general{
+h2#syllabus, h2#wdetails, h2#schedule, h2#setup, h2#general, h2#registration {
  border-left-style:solid;
  padding-left: 10px;
  //background-color:rgba(176, 226, 234, 0.13);
