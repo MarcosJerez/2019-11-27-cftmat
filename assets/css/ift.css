@@ -92,6 +92,12 @@ div#iframe{
  max-width:1140px;
 }
 
+.jumbotron p {
+    margin-bottom: 15px ;
+    font-size: 21px;
+    /* font-weight: 200; */
+    width: 490px !important;
+
 .jumbotron .row {
  background-color:rgba(136, 126, 109, 0.69);
  border-radius:12px;
