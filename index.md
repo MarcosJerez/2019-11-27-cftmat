@@ -7,8 +7,8 @@ address: "Nicolas Cabrera 13, Madrid, Spain"      # full street address of works
 country: "es"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "es"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng: "40.549532,-3.687608"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Nov 28 9:00 am - 6:00 pm, 29 Nov 9:00 am  -  1:00 pm 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "Dic 4 28 9:00 am - 6:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humandate: "Nov 28, 4 Dec 9:00 am - 6:00 pm, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "29 Nov 9:00 am  -  1:00 pm 2019"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-11-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-11-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor:  ["Iñigo Aldazabal", "Emilio Ambite", "Alfonso Nuñez","Bryan Zaldivar"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
