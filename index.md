@@ -400,71 +400,6 @@ You may need to move the div's with class="col-md-6" around inside -->
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.<b> Choose your OS below for detailed installation instructions</b>
 </p>
 
-<div id="editor"> <!-- Start of 'editor' section. -->
-  <h3>Text Editor</h3>
-  <p>
-    When you're writing code, it's nice to have a text editor that is
-    optimized for writing code, with features like automatic
-    color-coding of key words.  The default text editor on Mac OS X and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive.  if you accidentally find yourself stuck in it, try
-    typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-    exclamation mark), then hitting Return to return to the shell.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <a class="" role="button" data-toggle="collapse" href="#collapsee1" aria-expanded="false" aria-controls="collapsee1"><h4 id="editor-windows">Windows</h4></a>
-      <div id="collapsee1" class="collapse">
-     <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        It should be proposed as an option in the Git Bash installation. Please follow the
-	installation procedure of Git Bash and select nano when asked.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
-        <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
-        Please ask your instructor to help you do this.
-      </p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <a class="" role="button" data-toggle="collapse" href="#collapsee2" aria-expanded="false" aria-controls="collapsee2"><h4 id="editor-macosx">Mac OS X</h4></a>
-      <div id="collapsee2" class="collapse">
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open nano.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
-      </p>
-      </div> 
-    </div>
-    <div class="col-md-4">
-      <a class="" role="button" data-toggle="collapse" href="#collapsee3" aria-expanded="false" aria-controls="collapsee3"><h4 id="editor-linux">Linux</h4></a>
-      <div id="collapsee3" class="collapse">
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="http://kate-editor.org/">Kate</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
-      </p>
-      </div>
-    </div>
-  </div>
-</div> <!-- End of 'editor' section. -->
-
 <div id="shell"> <!-- Start of 'shell' section. -->
   <h3>The Bash Shell</h3>
 
@@ -619,6 +554,71 @@ You may need to move the div's with class="col-md-6" around inside -->
     </div>
   </div>
 </div> <!-- End of 'Git' section. -->
+
+<div id="editor"> <!-- Start of 'editor' section. -->
+  <h3>Text Editor</h3>
+  <p>
+    When you're writing code, it's nice to have a text editor that is
+    optimized for writing code, with features like automatic
+    color-coding of key words.  The default text editor on Mac OS X and
+    Linux is usually set to Vim, which is not famous for being
+    intuitive.  if you accidentally find yourself stuck in it, try
+    typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
+    exclamation mark), then hitting Return to return to the shell.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <a class="" role="button" data-toggle="collapse" href="#collapsee1" aria-expanded="false" aria-controls="collapsee1"><h4 id="editor-windows">Windows</h4></a>
+      <div id="collapsee1" class="collapse">
+     <p>
+        nano is a basic editor and the default that instructors use in the workshop.
+        It should be proposed as an option in the Git Bash installation. Please follow the
+	installation procedure of Git Bash and select nano when asked.
+      </p>
+      <p>
+        Others editors that you can use are
+        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
+        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <strong>Be aware that you must
+          add its installation directory to your system path.</strong>
+        Please ask your instructor to help you do this.
+      </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <a class="" role="button" data-toggle="collapse" href="#collapsee2" aria-expanded="false" aria-controls="collapsee2"><h4 id="editor-macosx">Mac OS X</h4></a>
+      <div id="collapsee2" class="collapse">
+      <p>
+        nano is a basic editor and the default that instructors use in the workshop.
+        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
+        for an example on how to open nano.
+        It should be pre-installed.
+      </p>
+      <p>
+        Others editors that you can use are
+        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+      </p>
+      </div> 
+    </div>
+    <div class="col-md-4">
+      <a class="" role="button" data-toggle="collapse" href="#collapsee3" aria-expanded="false" aria-controls="collapsee3"><h4 id="editor-linux">Linux</h4></a>
+      <div id="collapsee3" class="collapse">
+      <p>
+        nano is a basic editor and the default that instructors use in the workshop.
+        It should be pre-installed.
+      </p>
+      <p>
+        Others editors that you can use are
+        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
+        <a href="http://kate-editor.org/">Kate</a> or
+        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+      </p>
+      </div>
+    </div>
+  </div>
+</div> <!-- End of 'editor' section. -->
 
 <div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
