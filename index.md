@@ -523,7 +523,7 @@ You may need to move the div's with class="col-md-6" around inside -->
     or Internet Explorer version 9 or above).
   </p>
   <p>
-    You will need an account at <a href="https://gitlab.ift.uam-csic.es/">IFT's GitLab</a>
+    You will need an account at <a href="https://github.com">GitHub</a>
     for parts of the Git lesson. We encourage
     you to create a GitiLab account if you don't have one already.
   </p>
