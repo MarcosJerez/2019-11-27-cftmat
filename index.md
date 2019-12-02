@@ -78,7 +78,7 @@ displayed if the 'eventbrite' field in the header is not set.
  With the collaboration of: 
  <div id="CFMlogo" class="">
   <img src="cfm-banner.png" />
-  <a href="http://cfm.ehu.es/">Centro de Física de Materiales EHU</a>
+  <a href="https://cfm.ehu.es/">Centro de Física de Materiales (CSIC, UPV/EHU)</a>
  </div>
 <!--<div id="sipba" class="col-md-6">	
 <img src="transparent_vertical_black.png" style="max-width:200px">
